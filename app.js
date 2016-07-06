@@ -33,3 +33,23 @@ var playerNumber = 16;       // Change this Line
 var player = testObj[playerNumber];   // Change this Line
 document.getElementById("PN").innerHTML =  playerNumber;
 document.getElementById("TO").innerHTML = player;
+
+/**********************************************
+*            Accessing Nested Objects         *
+**********************************************/
+// Setup
+var myStorage = {
+  "car": {
+    "inside": {
+      "glove box": "maps",
+      "passenger seat": "crumbs"
+     },
+    "outside": {
+      "trunk": "jack"
+    }
+  }
+};
+// Only change code below this line
+var gloveBoxContents = myStorage.car.inside["glove box"];
+document.getElementById("glove-box").innerHTML = gloveBoxContents;
+document.getElementById("glove-box-also").innerHTML = myStorage.car.inside["glove box"];
