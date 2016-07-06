@@ -1,8 +1,22 @@
+#div1 {
+  border-style: solid;
+}
+#div2 {
+  border-style: groove;
+}
 #OD {
   background-color: lavender;
   text-align: center;
 }
 #MD {
+  background-color: lavenderblush;
+  text-align: center;
+}
+#PN {
+  background-color: lavender;
+  text-align: center;
+}
+#TO {
   background-color: lavenderblush;
   text-align: center;
 }
